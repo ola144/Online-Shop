@@ -67,12 +67,12 @@ function App({ children }: { children: React.ReactNode }) {
               }
             >
               <Route index element={<Home />} />
-              <Route path="products" element={<Products />} />
-              <Route path="cart" element={<Cart />} />
-              <Route path="myOrder" element={<MyOrder />} />
-              <Route path="about" element={<About />} />
-              <Route path="contact" element={<Contact />} />
-              <Route path="review" element={<Review />} />
+              <Route path="/products" element={<Products />} />
+              <Route path="/cart" element={<Cart />} />
+              <Route path="/myOrder" element={<MyOrder />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/review" element={<Review />} />
               <Route path="/productDetails/:id" element={<ProductDetails />} />
               <Route
                 path="/category/:categoryName"
@@ -80,7 +80,7 @@ function App({ children }: { children: React.ReactNode }) {
               />
 
               <Route
-                path="admin"
+                path="/admin"
                 element={
                   <ProtectAdmin>
                     <Admin />

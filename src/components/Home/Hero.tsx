@@ -11,8 +11,8 @@ const Hero = () => {
 
   return (
     <>
-      <div className="bg-gray-300" style={{ width: "100%" }}>
-        <div className="mx-auto hero">
+      <div className="bg-gray-300 flex justify-center items-center w-full">
+        <div className=" hero">
           <div className="flex items-center justify-center flex-wrap sm:flex-nowrap hero-flex px-4 py-5 sm:gap-0 gap-4">
             <div className="text-center sm:text-left w-full">
               <h1 className="font-bold text-sm lg:text-5xl md:text-3xl sm:text-3xl ">
@@ -39,13 +39,14 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="mt-8 mx-auto overflow-auto w-full ">
-        <div className="flex justify-center items-center cursor-pointer px-10 mx-auto">
+
+      <div className="mt-8 lg:overflow-hidden overflow-auto w-fit flex justify-center items-center">
+        <div className="flex justify-center items-center cursor-pointer px-10 mx-auto w-fit">
           {categoryList.map((category: any) => {
             return (
               <div
                 key={category.categoryId}
-                className="text-center font-bold px-2"
+                className="text-center font-bold mx-2 w-fit"
                 onClick={() => navigate(`/category/${category.categoryName}`)}
               >
                 <img

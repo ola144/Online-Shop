@@ -82,8 +82,8 @@ const LatestProduct = () => {
   };
 
   return (
-    <div className="w-full shadow-lg pt-10 pb-12">
-      <div className="flex justify-between items-center px-5">
+    <div className="w-full shadow-lg pt-10 md:px-15 pb-12">
+      <div className="flex justify-between items-center px-5 w-full">
         <h2 className="text-sm text-blue-600 font-bold">Latest Products</h2>
         <button
           className="underline text-blue-500 hover:underline-offset-0 text-xs sm:text-sm font-bold"
@@ -96,7 +96,7 @@ const LatestProduct = () => {
         {loading ? (
           <Loader />
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 gap-3 mt-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 gap-3 mt-5 w-full px-0">
             {product.map((product: any) => {
               return (
                 <div

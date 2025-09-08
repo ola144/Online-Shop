@@ -7,7 +7,7 @@ import WhatWeOffer from "./WhatWeOffer";
 
 const Home = () => {
   return (
-    <div>
+    <div className=" mx-auto relative" style={{ minWidth: "100%" }}>
       <Hero />
       <LatestProduct />
       <WhatWeOffer />

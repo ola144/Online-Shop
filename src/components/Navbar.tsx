@@ -43,7 +43,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-white w-full text-black py-3 px-10 lg:px-20 fixed top-0 left-0  shadow-lg  shadow-gray-500 z-30">
+    <div
+      className="bg-white w-full text-black py-3 px-10 lg:px-24 fixed top-0 left-0  shadow-lg  shadow-gray-500 z-30"
+      style={{ top: 0, right: 0, left: 0 }}
+    >
       <div className="flex justify-between items-center relative">
         <div className="text-lg font-bold">
           <h2>

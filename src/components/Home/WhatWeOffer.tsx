@@ -1,7 +1,7 @@
 const WhatWeOffer = () => {
   return (
-    <div className="w-full px-10 py-5 my-5 bg-gradient-to-tr from-purple-400 to-purple-500 ">
-      <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 mx-auto sm:w-full w-full">
+    <div className="w-fit px-20 py-5 my-5 bg-gradient-to-tr from-purple-400 to-purple-500 ">
+      <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 mx-auto sm:w-fit w-full">
         <div className="text-center">
           <p className="text-white text-2xl md:text-3xl mb-2 font-bold">
             <i className="fa fa-calendar-o"></i>
