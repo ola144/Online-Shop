@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="mt-8 lg:overflow-hidden overflow-auto w-fit flex justify-center items-center">
+      <div className="mt-8 lg:overflow-hidden overflow-auto w-fit flex justify-center items-center mx-auto">
         <div className="flex justify-center items-center cursor-pointer px-10 mx-auto w-fit">
           {categoryList.map((category: any) => {
             return (
