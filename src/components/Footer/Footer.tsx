@@ -107,12 +107,11 @@ const Footer = () => {
         </div>
         <div className="text-gray-500 font-bold relative">
           <p>
-            <i className="fa fa-copyright"></i> Copyright 2025 Online Shopping.
-            All rights reserved. Develop by
+            <i className="fa fa-copyright"></i> Copyright{" "}
+            {new Date().getFullYear()} Online Shopping. All rights reserved.
+            Develop by
           </p>
-          <p className="font-black text-black text-lg text-right">
-            Fortunate Tech!
-          </p>
+          <p className="font-black text-black text-lg text-right">OlaTech!</p>
         </div>
       </div>
     </div>
